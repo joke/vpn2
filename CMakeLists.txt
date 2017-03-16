@@ -12,7 +12,6 @@ endif()
 
 include(CMakeDependentOption)
 
-
 project(vpn)
 
 add_subdirectory(src)
