@@ -1,5 +1,5 @@
 include(FindBoost)
-find_package(Boost 1.63.0 EXACT REQUIRED COMPONENTS program_options)
+find_package(Boost 1.63.0 EXACT REQUIRED COMPONENTS program_options system)
 
 include_directories(${Boost_INCLUDE_DIRS})
 add_executable(vpn main.c++ program_options.c++)
